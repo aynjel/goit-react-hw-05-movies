@@ -1,0 +1,54 @@
+.movie-page {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.movie-page .movie-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 30px;
+  margin-top: 20px;
+}
+
+.movie-details h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.movie-meta {
+  display: flex;
+  column-gap: 20px;
+}
+
+.movie-meta img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-meta p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.movie-nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
